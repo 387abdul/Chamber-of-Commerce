@@ -1,0 +1,486 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" /> <!-- css links -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- navbar section -->
+  <!-- first navbar section -->
+  <nav class="navbar navbar-expand-md navbar1">
+    <div class="navbar-brand"></div>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#but">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="but">
+      <ul class="navbar-nav ms-auto me-5">
+        <li class="navbar-item">
+          <a href="#" class="nav-link first-nav">Home</a>
+        </li>
+        <li class="navbar-item">
+          <a href="#" class="nav-link first-nav">| COVED 19</a>
+        </li>
+        <li class="navbar-item">
+          <a href="#" class="nav-link first-nav"> | Tenders</a>
+        </li>
+        <li class="navbar-item">
+          <a href="#" class="nav-link first-nav"> | FPCCS Office</a>
+        </li>
+        <li class="navbar-item">
+          <a href="#" class="nav-link first-nav"> | Careers</a>
+        </li>
+        <li class="navbar-item">
+          <button class="bus-sour ">Business Sources</button>
+        </li>
+        <li class="navbar-item ps-3">
+          <input type="search" class="search" placeholder="Search...">
+        </li>
+      </ul>
+    </div>
+  </nav>  
+  <!-- second navigation section -->
+  <div>
+    <nav class="navbar navbar-expand-md navbar-dark navbar2">
+      <div class="navbar-brand">
+        <img src="https://fpcci.org.pk/wp-content/uploads/2021/12/fpcci_logo-1.jpg" class="navbar-image">
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#buts">
+        <span class="navbar-toggler-icon  handburger"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="buts">
+        <ul class="navbar-nav mr-auto second-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">About us media<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Policy Board</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Members Affairs
+            </a>
+            <!-- <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div> -->
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">International Relations</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">FPCCI Awards</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Forms</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Elections</a>
+          </li>
+          <li class="nav-item">
+            <button class="btn-contact">Connect With Us</button>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <!-- main section -->
+  <section>
+    <div class="container mt-4">
+      <div class="path">
+        <a href="#" class="path-link">Home / </a> <span>9th FPCCI Achievement Awards Gallery</span>
+      </div>
+      <div class="group text-center">
+        <div class="img-row mt-5">
+          <div class="borders">
+            <img class="single-img" onclick="openModal(this)"
+              src="https://fpcci.org.pk/wp-content/uploads/cache/2022/04/DSC_9884/1620312990.jpg" alt="">
+            <!-- <i class="fa-solid fa-magnifying-glass-plus magnifying-class"></i> -->
+          </div>
+        </div>
+        <div class="img-row mt-5">
+          <div class="borders">
+            <img class="single-img" onclick="openModal(this)"
+              src="https://fpcci.org.pk/wp-content/uploads/cache/2022/04/DSC_9871/2534352736.jpg" alt="">
+          </div>
+        </div>
+        <div class="img-row mt-5">
+          <div class="borders">
+            <img class="single-img " onclick="openModal(this)"
+              src="https://fpcci.org.pk/wp-content/uploads/cache/2022/04/DSC_9885/488883564.jpg" alt="">
+          </div>
+        </div>
+        <div class="img-row mt-5">
+          <div class="borders">
+            <img class="single-img " onclick="openModal(this)"
+              src="https://fpcci.org.pk/wp-content/uploads/cache/2022/04/DSC_9881/2486793586.jpg" alt="">
+          </div>
+        </div>
+        <div class="img-row mt-5">
+          <div class="borders">
+            <img class="single-img " onclick="openModal(this)"
+              src="https://fpcci.org.pk/wp-content/uploads/cache/2022/04/DSC_9890/3875013255.jpg" alt="">
+          </div>
+        </div>
+        <div class="img-row mt-5">
+          <div class="borders">
+            <img class="single-img " onclick="openModal(this)"
+              src="https://fpcci.org.pk/wp-content/uploads/cache/2022/04/DSC_9999/3349828021.jpg" alt="">
+          </div>
+        </div>
+        <div class="img-row mt-5">
+          <div class="borders">
+            <img class="single-img " onclick="openModal(this)"
+              src="https://fpcci.org.pk/wp-content/uploads/cache/2022/04/DSC_9873/702815975.jpg" alt="">
+          </div>
+        </div>
+        <div class="img-row mt-5">
+          <div class="borders">
+            <img class="single-img " onclick="openModal(this)"
+              src="https://fpcci.org.pk/wp-content/uploads/cache/2022/04/DSC_9883/662893073.jpg" alt="">
+          </div>
+        </div>
+        <div class="img-row mt-5">
+          <div class="borders">
+            <img class="single-img " onclick="openModal(this)"
+              src="https://fpcci.org.pk/wp-content/uploads/cache/2022/04/DSC_0003/1573932368.jpg" alt="">
+          </div>
+        </div>
+        <div class="img-row mt-5">
+          <div class="borders">
+            <img class="single-img " onclick="openModal(this)"
+              src="https://fpcci.org.pk/wp-content/uploads/cache/2022/04/DSC_9877/79590197.jpg" alt="">
+          </div>
+        </div>
+        <div class="img-row mt-5">
+          <div class="borders">
+            <img class="single-img " onclick="openModal(this)"
+              src="https://fpcci.org.pk/wp-content/uploads/cache/2022/04/DSC_9875/643404035.jpg" alt="">
+          </div>
+        </div>
+        <div class="img-row mt-5">
+          <div class="borders">
+            <img class="single-img " onclick="openModal(this)"
+              src="https://fpcci.org.pk/wp-content/uploads/cache/2022/04/DSC_9965/255839577.jpg" alt="">
+          </div>
+        </div>
+        <div class="img-row mt-5">
+          <div class="borders">
+            <img class="single-img " onclick="openModal(this)"
+              src="https://fpcci.org.pk/wp-content/uploads/cache/2022/04/DSC_0001/864018548.jpg" alt="">
+          </div>
+        </div>
+        <div class="img-row mt-5">
+          <div class="borders">
+            <img class="single-img " onclick="openModal(this)"
+              src="https://fpcci.org.pk/wp-content/uploads/cache/2022/04/DSC_9869/717610781.jpg" alt="">
+          </div>
+        </div>
+        <div class="img-row mt-5">
+          <div class="borders">
+            <img class="single-img " onclick="openModal(this)"
+              src="https://fpcci.org.pk/wp-content/uploads/cache/2022/04/DSC_9917/503097584.jpg" alt="">
+          </div>
+        </div>
+        <div class="img-row mt-5">
+          <div class="borders">
+            <img class="single-img " onclick="openModal(this)"
+              src="https://fpcci.org.pk/wp-content/uploads/cache/2022/04/DSC_9908/41454904.jpg" alt="">
+          </div>
+        </div>
+        <div class="img-row mt-5">
+          <div class="borders">
+            <img class="single-img " onclick="openModal(this)"
+              src="https://fpcci.org.pk/wp-content/uploads/cache/2022/04/DSC_9942/2530878410.jpg" alt="">
+          </div>
+        </div>
+        <div class="img-row mt-5">
+          <div class="borders">
+            <img class="single-img " onclick="openModal(this)"
+              src="https://fpcci.org.pk/wp-content/uploads/cache/2022/04/DSC_9895/1397589405.jpg" alt="">
+          </div>
+        </div>
+        <div class="img-row mt-5">
+          <div class="borders">
+            <img class="single-img " onclick="openModal(this)"
+              src="https://fpcci.org.pk/wp-content/uploads/cache/2022/04/DSC_9949/3011477395.jpg" alt="">
+          </div>
+        </div>
+        <div class="img-row mt-5">
+          <div class="borders">
+            <img class="single-img " onclick="openModal(this)"
+              src="https://fpcci.org.pk/wp-content/uploads/cache/2022/04/DSC_9961/643028556.jpg" alt="">
+          </div>
+        </div>
+        <div class="img-row mt-5">
+          <div class="borders">
+            <img class="single-img " onclick="openModal(this)"
+              src="https://fpcci.org.pk/wp-content/uploads/cache/2022/04/DSC_9937/1938408964.jpg" alt="">
+          </div>
+        </div>
+        <div class="img-row mt-5">
+          <div class="borders">
+            <img class="single-img " onclick="openModal(this)"
+              src="https://fpcci.org.pk/wp-content/uploads/cache/2022/04/DSC_9871/2534352736.jpg" alt="">
+          </div>
+        </div>
+        <div class="img-row mt-5">
+          <div class="borders">
+            <img class="single-img " onclick="openModal(this)"
+              src="https://fpcci.org.pk/wp-content/uploads/cache/2022/04/DSC_9885/488883564.jpg" alt="">
+          </div>
+        </div>
+        <div class="img-row mt-5">
+          <div class="borders">
+            <img class="single-img " onclick="openModal(this)"
+              src="https://fpcci.org.pk/wp-content/uploads/cache/2022/04/DSC_9974/1031666910.jpg" alt="">
+          </div>
+        </div>
+        <div class="img-row mt-5">
+          <div class="borders">
+            <img class="single-img " onclick="openModal(this)"
+              src="https://fpcci.org.pk/wp-content/uploads/cache/2022/04/DSC_9881/2486793586.jpg" alt="">
+          </div>
+        </div>
+        <div class="img-row mt-5">
+          <div class="borders">
+            <img class="single-img " onclick="openModal(this)"
+              src="https://fpcci.org.pk/wp-content/uploads/cache/2022/04/DSC_0004/4060798176.jpg" alt="">
+          </div>
+        </div>
+        <div class="img-row mt-5">
+          <div class="borders">
+            <img class="single-img " onclick="openModal(this)"
+              src="https://fpcci.org.pk/wp-content/uploads/cache/2022/04/DSC_9998/3603990925.jpg" alt="">
+          </div>
+        </div>
+        <div class="img-row mt-5">
+          <div class="borders">
+            <img class="single-img " onclick="openModal(this)"
+              src="https://fpcci.org.pk/wp-content/uploads/cache/2022/04/DSC_9979/57110950.jpg" alt="">
+          </div>
+        </div>
+        <div class="img-row mt-5">
+          <div class="borders">
+            <img class="single-img " onclick="openModal(this)"
+              src="https://fpcci.org.pk/wp-content/uploads/cache/2022/04/DSC_9892/562249322.jpg" alt="">
+          </div>
+        </div>
+        <div class="img-row mt-5">
+          <div class="borders">
+            <img class="single-img " onclick="openModal(this)"
+              src="https://fpcci.org.pk/wp-content/uploads/cache/2022/04/DSC_0002/2641737295.jpg" alt="">
+          </div>
+        </div>
+      </div>
+  </section>
+  <section class="footer mt-5">
+    <div class="footer-heading">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-12 col-12 pt-2">
+            <div class="location">
+              <i class="fa-solid fa-location-dot" style="color: #ffffff;"></i><span>Our Location</span>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12 col-12 Subscribe">
+            Subscribe For Industry News And Insights From FPCCI
+          </div>
+          <div class="col-lg-4 col-md-12 col-12 pt-3 pb-3 search">
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Your Email Address" aria-label="Search">
+              <button class="btn btn-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- link -->
+    <div class="container pt-3">
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="accordion" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button bg-light" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                  aria-controls="panelsStayOpen-collapseOne">
+                  <h6 class="text-success">HEAD OFFICE,KARAChI</h6>
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                <div class="accordion-body">
+                  <p>Federation House, Tariq Sayeed Complex, Main Clifton, Block 5, Abdullah Shah Gazi Road,
+                    Karachi-Sindh.
+                    Tel: 021-35873691-94
+                    Fax: 021-35874332
+                    Email: info@fpcci.org.pk
+                    Web: www.fpcci.org.pk</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseTwo">
+                  <h6 class="text-dark">CAPITAL HOUSE,ISLAMABAD</h6>
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse
+                  plugin adds the appropriate classes that we use to style each element. These classes control the
+                  overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this
+                  with custom CSS or overriding our default variables. It's also worth noting that just about any HTML
+                  can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseThree">
+                  <h6 class="text-dark">REGIONAL OFFICE LAHORE</h6>
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
+                  plugin adds the appropriate classes that we use to style each element. These classes control the
+                  overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this
+                  with custom CSS or overriding our default variables. It's also worth noting that just about any HTML
+                  can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseFour">
+                  <h6 class="text-dark">REGIONAL OFFICE, QUETTA</h6>
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
+                  plugin adds the appropriate classes that we use to style each element. These classes control the
+                  overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this
+                  with custom CSS or overriding our default variables. It's also worth noting that just about any HTML
+                  can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseFive">
+                  <h6 class="text-dark">REGIONAL OFFICE,PESHAWAR</h6>
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
+                  plugin adds the appropriate classes that we use to style each element. These classes control the
+                  overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this
+                  with custom CSS or overriding our default variables. It's also worth noting that just about any HTML
+                  can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseSix">
+                  <h6 class="text-dark">REGIONAL OFFICE,GWADAR</h6>
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
+                  plugin adds the appropriate classes that we use to style each element. These classes control the
+                  overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this
+                  with custom CSS or overriding our default variables. It's also worth noting that just about any HTML
+                  can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseSeven" aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseSeven">
+                  <h6 class="text-dark">REGIONAL OFFICE,GILGIT BALTISTAN</h6>
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseSeven" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
+                  plugin adds the appropriate classes that we use to style each element. These classes control the
+                  overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this
+                  with custom CSS or overriding our default variables. It's also worth noting that just about any HTML
+                  can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6 col-12 text-center pt-2 all-link">
+          <h4>Useful link</h4>
+          <a href="#">CPEC</a><br>
+          <a href="#">Federal Board of Revenue</a> <br>
+          <a href="#">Government of Sindh</a><br>
+          <a href="#">Government of Punjab</a><br>
+          <a href="#">Federal Burenau of Statistic</a><br>
+          <a href="#">S.E.C.P</a><br>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12 text-center pt-2 all-link ps-5">
+          <h4>Information</h4>
+          <a href="#">Visa policy of Pakistan</a><br>
+          <a href="#">Contact</a><br>
+          <a href="#">Tax Exemption Certificate</a><br>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12 text-center pt-2 all-link ps-3">
+          <h4>Media Center</h4>
+          <a href="#">Blogs</a><br>
+          <a href="#">Event Gallery</a><br>
+          <a href="#">Press Release</a><br>
+          <a href="#">FPCCI Actvitiy</a><br>
+        </div>
+        <hr style="background-color: black; color: black; margin-top: 20px;">
+        <p style="font-size: 15px; text-align: center;">
+          © 2022 - 2024 FPCCI. All rights reserved. Website Designed & Developed by <span
+            style="color: rgb(175, 115, 3);">A2Z Creatorz</span></p>
+      </div>
+      <!-- image-model -->
+    
+      <div id="myModal" class="modal">
+        <span class="close" onclick="closeModal()"><i class="fa-regular fa-circle-xmark" style="color: #ffffff;"></i></span>
+        <img class="modal-content" id="modalImg">
+        <span class="prev" onclick="plusSlides(-1)"><i class="fa-solid fa-arrow-left" style="color:#ffffff;"></i></span>
+        <span class="next" onclick="plusSlides(1)"><i class="fa-solid fa-arrow-right" style="color:#ffffff;"></i></span>
+    </div>
+    
+  </section>
+  <script src="index.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+</body>
+
+</html>
